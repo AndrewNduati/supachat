@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T05:42:11.828Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.9" etag="WhOprvvbYl98-yKAOisx" type="github">
-  <diagram name="Page-1" id="N-qWqc-MtO4Km1gGdbv0">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2024-05-28T06:10:46.723Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Y5PSo3l5VsFsNvpAdjC2" version="24.4.9" type="github">
+  <diagram name="Page-1" id="K2ZXEa1p0oSkzVur7pQf">
+    <mxGraphModel dx="1234" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NbCh2ZNPlvFbVAxgcwWW-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbCh2ZNPlvFbVAxgcwWW-1" target="NbCh2ZNPlvFbVAxgcwWW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCh2ZNPlvFbVAxgcwWW-1" value="Rails App" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCh2ZNPlvFbVAxgcwWW-2" value="PG d/b" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCh2ZNPlvFbVAxgcwWW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbCh2ZNPlvFbVAxgcwWW-3" target="NbCh2ZNPlvFbVAxgcwWW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCh2ZNPlvFbVAxgcwWW-3" value="SupaAuth Gem" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCh2ZNPlvFbVAxgcwWW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbCh2ZNPlvFbVAxgcwWW-4" target="NbCh2ZNPlvFbVAxgcwWW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCh2ZNPlvFbVAxgcwWW-4" value="Auth.js client" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCh2ZNPlvFbVAxgcwWW-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbCh2ZNPlvFbVAxgcwWW-5" target="NbCh2ZNPlvFbVAxgcwWW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbCh2ZNPlvFbVAxgcwWW-5" value="Auth API" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
